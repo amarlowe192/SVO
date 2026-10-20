@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Placeholder image">
+  <defs>
+    <pattern id="s" width="40" height="40" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="40" height="40" fill="#eceae8"/><rect width="20" height="40" fill="#e3e0dd"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#s)"/>
+  <g transform="translate(400 300)">
+    <rect x="-200" y="-80" width="400" height="160" rx="20" fill="#fff" stroke="#2d2828" stroke-width="3"/>
+    <g transform="translate(-125 0)">
+      <rect x="-40" y="-28" width="80" height="56" rx="10" fill="#a6192e"/>
+      <circle cx="0" cy="0" r="15" fill="#fff"/>
+      <path d="M-13 -28 l6 -11 h14 l6 11" fill="#a6192e"/>
+    </g>
+    <text x="-60" y="-4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#2d2828">Your photo</text>
+    <text x="-60" y="36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#2d2828">goes here</text>
+  </g>
+</svg>

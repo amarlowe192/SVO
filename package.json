@@ -1,0 +1,12 @@
+{
+  "name": "svo-site",
+  "version": "2.0.0",
+  "description": "Static website and officer dashboard for the Student Veterans Organization, backed by Supabase",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
